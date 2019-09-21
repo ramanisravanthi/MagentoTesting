@@ -11,7 +11,7 @@ public class MagentoTest
 	@Test
 	public  void Magentomain() throws InterruptedException 
 	{
-		WebDriver driver = new FirefoxDriver();
+		WebDriver driver = new Driver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("https://magento.com");
